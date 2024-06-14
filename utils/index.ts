@@ -1,9 +1,13 @@
 import {
   BatteryCharging,
+  BookAIcon,
+  Building2,
   Camera,
   Computer,
+  Contact2,
   Cpu,
   HardDrive,
+  HomeIcon,
   Laptop2,
   Monitor,
   Printer,
@@ -11,7 +15,7 @@ import {
   Shield,
   SwitchCamera,
 } from "lucide-react"
-import { TService } from "./types"
+import { TLinks, TService } from "./types"
 
 export const services: TService[] = [
   {
@@ -79,5 +83,28 @@ export const services: TService[] = [
     description:
       "Offering a variety of surveillance cameras to ensure the security and monitoring of your premises.",
     Icon: Camera,
+  },
+]
+
+export const links: TLinks[] = [
+  {
+    name: "Home",
+    link: "/",
+    Icon: HomeIcon,
+  },
+  {
+    name: "Services",
+    link: "/service",
+    Icon: Building2,
+  },
+  {
+    name: "Contact",
+    link: "/contact-us",
+    Icon: Contact2,
+  },
+  {
+    name: "About",
+    link: "/about-us",
+    Icon: BookAIcon,
   },
 ]

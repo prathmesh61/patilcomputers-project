@@ -5,3 +5,8 @@ export type TService = {
   Icon: LucideIcon
   description: string
 }
+export type TLinks = {
+  name: string
+  link: string
+  Icon?: LucideIcon
+}
