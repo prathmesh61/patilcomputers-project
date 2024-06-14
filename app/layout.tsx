@@ -1,9 +1,10 @@
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Inter, Kumbh_Sans } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/base/Header"
 
 const inter = Inter({ subsets: ["latin"] })
+const kumbh = Kumbh_Sans({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "IT Service provider",
@@ -18,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={kumbh.className}>
         <Header />
         {children}
       </body>

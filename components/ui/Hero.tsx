@@ -16,6 +16,7 @@ const Hero = () => {
           alt="image1"
           src={image1}
           width={200}
+          sizes="500px"
           className="h-[800px] object-cover opacity-40"
         />
         <div
@@ -33,6 +34,7 @@ const Hero = () => {
           alt="image2"
           src={image2}
           width={200}
+          sizes="500px"
           className="h-[800px] object-cover opacity-40"
         />
 
@@ -41,7 +43,7 @@ const Hero = () => {
           style={{ transform: "translate(-50%, -50%)" }}
         >
           <h2 className="text-wrap text-4xl font-extrabold">
-            Security, Surveillance & Managed IT Services Provider
+            We offer a full spectrum of IT, Networking and Security services.
           </h2>
           <p className="text-lg font-medium">A guide to introduce Expert Tech Group</p>
         </div>
@@ -51,6 +53,7 @@ const Hero = () => {
           alt="image3"
           src={image3}
           width={200}
+          sizes="500px"
           className="h-[800px] object-cover opacity-40"
         />
 
@@ -59,7 +62,7 @@ const Hero = () => {
           style={{ transform: "translate(-50%, -50%)" }}
         >
           <h2 className="text-wrap text-4xl font-extrabold">
-            Security, Surveillance & Managed IT Services Provider
+            IT Service provider across all public and private sectors.
           </h2>
           <p className="text-lg font-medium">A guide to introduce Expert Tech Group</p>
         </div>

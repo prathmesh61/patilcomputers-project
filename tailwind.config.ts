@@ -9,9 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        brand: "#00BFA5",
-        "brand-secondary": "#7fdfd2",
-        "brand-dark": "#007a7a",
+        brand: "#1976d2",
+        "brand-secondary": "#383edd",
+        "brand-dark": "#003f88",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
