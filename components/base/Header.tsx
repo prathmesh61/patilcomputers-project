@@ -26,7 +26,7 @@ const Header = () => {
           </p>
         </div>
       </div>
-      <nav className="container mx-auto flex h-20 items-center justify-between px-20 py-4">
+      <nav className="container mx-auto flex h-20 items-center justify-between px-14 py-4">
         <Link href={"/"} className="flex items-center gap-2">
           <Computer size={15} />
           <span className="whitespace-nowrap text-sm font-bold text-white lg:text-xl">

@@ -23,14 +23,6 @@ const AboutUsPage = () => {
           Our extensive range of offerings ensures that we can cater to both
           individual users and businesses, regardless of size or industry.
         </p>
-        <p className="max-w-4xl text-wrap text-center text-sm lg:text-base">
-          we are committed to delivering exceptional customer service and
-          support. Our team of experienced professionals is dedicated to helping
-          you find the perfect solutions for your specific needs. We believe in
-          building long-term relationships with our clients, based on trust,
-          reliability, and excellence. Thank you for choosing Patil Computers.
-          We look forward to serving you and helping you achieve your IT goals.
-        </p>
       </div>
     </section>
   )

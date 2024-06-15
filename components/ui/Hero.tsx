@@ -17,16 +17,16 @@ const Hero = () => {
           src={image1}
           width={200}
           sizes="500px"
-          className="h-[800px] object-cover opacity-40"
+          className="h-[400px] object-cover opacity-40 lg:h-[800px]"
         />
         <div
           className="absolute left-[50%] top-[50%] flex flex-col items-center gap-4"
           style={{ transform: "translate(-50%, -50%)" }}
         >
-          <h2 className="text-wrap text-4xl font-extrabold">
+          <h2 className="text-wrap text-2xl font-extrabold lg:text-4xl">
             Security, Surveillance & Managed IT Services Provider
           </h2>
-          <p className="text-lg font-medium">
+          <p className="text-sm font-medium lg:text-lg">
             A guide to introduce Patil computers
           </p>
         </div>
@@ -37,17 +37,17 @@ const Hero = () => {
           src={image2}
           width={200}
           sizes="500px"
-          className="h-[800px] object-cover opacity-40"
+          className="h-[400px] object-cover opacity-40 lg:h-[800px]"
         />
 
         <div
           className="absolute left-[50%] top-[50%] flex flex-col items-center gap-4"
           style={{ transform: "translate(-50%, -50%)" }}
         >
-          <h2 className="text-wrap text-4xl font-extrabold">
+          <h2 className="text-wrap text-2xl font-extrabold lg:text-4xl">
             We offer a full spectrum of IT, Networking and Security services.
           </h2>
-          <p className="text-lg font-medium">
+          <p className="text-sm font-medium lg:text-lg">
             A guide to introduce Expert Tech Group
           </p>
         </div>
@@ -58,17 +58,17 @@ const Hero = () => {
           src={image3}
           width={200}
           sizes="500px"
-          className="h-[800px] object-cover opacity-40"
+          className="h-[400px] object-cover opacity-40 lg:h-[800px]"
         />
 
         <div
           className="absolute left-[50%] top-[50%] flex flex-col items-center gap-4"
           style={{ transform: "translate(-50%, -50%)" }}
         >
-          <h2 className="text-wrap text-4xl font-extrabold">
+          <h2 className="text-wrap text-2xl font-extrabold lg:text-4xl">
             IT Service provider across all public and private sectors.
           </h2>
-          <p className="text-lg font-medium">
+          <p className="text-sm font-medium lg:text-lg">
             A guide to introduce Expert Tech Group
           </p>
         </div>
