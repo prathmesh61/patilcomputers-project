@@ -3,7 +3,7 @@ import img from "@/public/images/about-us-img.jpg"
 import Image from "next/image"
 import { MailCheck, PhoneCall } from "lucide-react"
 
-const AboutUs = () => {
+const AboutUsPage = () => {
   return (
     <section className="relative w-full">
       <Image
@@ -29,17 +29,9 @@ const AboutUs = () => {
           trust, reliability, and excellence. Thank you for choosing Patil Computers. We look
           forward to serving you and helping you achieve your IT goals.
         </p>
-        <div className="mt-5 flex flex-wrap gap-3 bg-brand-dark/65 p-3">
-          <p className="flex items-center gap-2 text-xs font-medium">
-            <PhoneCall size={15} /> 9768180229 / 9011758573
-          </p>
-          <p className="flex items-center gap-2 text-xs font-medium">
-            <MailCheck size={15} /> patilcomputers@gmail.com
-          </p>
-        </div>
       </div>
     </section>
   )
 }
 
-export default AboutUs
+export default AboutUsPage

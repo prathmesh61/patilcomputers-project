@@ -1,26 +1,33 @@
 "use client"
 import React, { useState } from "react"
 import Link from "next/link"
-import { AlignRight, Computer, PhoneCallIcon, SquareGanttChart, X } from "lucide-react"
+import { AlignRight, Computer, MailCheck, PhoneCallIcon, SquareGanttChart, X } from "lucide-react"
 import { links } from "@/utils"
 
 const Header = () => {
   const [open, setOpen] = useState(false)
   return (
     <header>
-      <div className="relative hidden flex-wrap items-center justify-around gap-5 bg-brand-dark lg:flex">
-        <p className="flex h-10 items-center justify-center whitespace-pre-wrap text-center text-sm text-gray-300">
+      <div className="relative flex flex-wrap items-center justify-around gap-5 bg-brand-dark">
+        <p className="hidden h-10 items-center justify-center whitespace-pre-wrap text-center text-xs text-gray-300 lg:flex">
           <SquareGanttChart size={16} /> Patil Computers IT Service provider across all public and
           private sectors.
         </p>
-        <p className="flex h-10 items-center justify-center whitespace-pre-wrap text-center text-sm text-gray-300">
-          <PhoneCallIcon size={16} /> +917676767676
-        </p>
+        <div className="flex items-center gap-2">
+          <p className="flex h-10 items-center justify-center whitespace-pre-wrap text-center text-xs text-gray-300">
+            <PhoneCallIcon size={16} /> +917676767676
+          </p>
+          <p className="flex items-center gap-1 text-xs text-gray-300">
+            <MailCheck size={16} /> patilcomputers@gmail.com
+          </p>
+        </div>
       </div>
       <nav className="container mx-auto flex h-20 items-center justify-between px-20 py-4">
         <div className="flex items-center gap-2">
-          <Computer size={20} />
-          <span className="whitespace-nowrap text-xl font-bold text-white">Patil Computers .</span>
+          <Computer size={15} />
+          <span className="whitespace-nowrap text-sm font-bold text-white lg:text-xl">
+            Patil Computers .
+          </span>
         </div>
         <div className="hidden items-center justify-center gap-6 lg:flex">
           {links.map((link, index) => (
@@ -33,13 +40,11 @@ const Header = () => {
             </Link>
           ))}
         </div>
+        <span className="flex lg:hidden" onClick={() => setOpen((prev) => !prev)}>
+          <AlignRight size={26} className="cursor-pointer" />
+        </span>
       </nav>
-      <span
-        className="fixed right-16 top-6 flex lg:hidden"
-        onClick={() => setOpen((prev) => !prev)}
-      >
-        <AlignRight size={26} className="cursor-pointer" />
-      </span>
+
       {open && (
         <nav className="absolute right-0 top-0 z-10 flex h-screen w-[200px] bg-white lg:hidden">
           <span className="absolute right-2 top-2" onClick={() => setOpen((prev) => !prev)}>

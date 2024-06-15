@@ -5,7 +5,10 @@ import React from "react"
 
 const Footer = () => {
   return (
-    <footer className="mt-20 flex flex-wrap items-center gap-10 bg-brand-dark/65 px-4 py-10 lg:justify-evenly lg:gap-4">
+    <footer
+      id="contact-us"
+      className="mt-20 flex flex-wrap items-center gap-10 bg-brand-dark/65 px-4 py-10 lg:justify-evenly lg:gap-4"
+    >
       <div className="flex flex-col gap-4">
         <h2 className="w-fit bg-white p-2 text-xl font-extrabold text-black">Patil Computers</h2>
         <p className="max-w-sm text-sm font-medium">
