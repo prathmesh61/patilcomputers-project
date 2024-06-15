@@ -1,4 +1,5 @@
 import { LucideIcon } from "lucide-react"
+import { LinkProps } from "next/link"
 
 export type TService = {
   title: string
@@ -7,6 +8,5 @@ export type TService = {
 }
 export type TLinks = {
   name: string
-  link: string
-  Icon?: LucideIcon
+  link: LinkProps["href"]
 }

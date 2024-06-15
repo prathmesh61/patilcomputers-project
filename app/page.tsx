@@ -11,9 +11,9 @@ export default function Home() {
       <Image
         src={whatsappLogo}
         alt="wgatsappLogo"
-        height={70}
-        width={70}
-        className="fixed bottom-10 right-20 object-contain"
+        height={60}
+        width={60}
+        className="fixed bottom-10 right-10 object-contain"
       />
       <WhyChooseUs />
       <Services />

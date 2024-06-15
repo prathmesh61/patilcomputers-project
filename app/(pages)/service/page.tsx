@@ -2,7 +2,7 @@ import Image from "next/image"
 import React from "react"
 import img from "@/public/images/service-page-img.jpg"
 import Services from "@/components/ui/Services"
-const ServicesPage = () => {
+const Service = () => {
   return (
     <section className="relative h-full w-full">
       <div className="absolute top-0 z-10 mx-auto flex h-[600px] w-full flex-col items-center justify-center gap-4 px-4">
@@ -32,4 +32,4 @@ const ServicesPage = () => {
   )
 }
 
-export default ServicesPage
+export default Service

@@ -90,21 +90,17 @@ export const links: TLinks[] = [
   {
     name: "Home",
     link: "/",
-    Icon: HomeIcon,
   },
   {
-    name: "Services",
+    name: "Service",
     link: "/service",
-    Icon: Building2,
   },
   {
     name: "Contact",
     link: "/contact-us",
-    Icon: Contact2,
   },
   {
     name: "About",
     link: "/about-us",
-    Icon: BookAIcon,
   },
 ]
