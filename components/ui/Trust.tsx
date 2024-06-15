@@ -18,7 +18,8 @@ const Trust = () => {
           <div className="rounded-lg bg-brand/65 p-2">
             <p className="text-lg font-medium">Honesty and Transparency</p>
             <span className="text-xs">
-              We believe in complete honesty and transparency with our customers.
+              We believe in complete honesty and transparency with our
+              customers.
             </span>
           </div>
 
@@ -30,12 +31,15 @@ const Trust = () => {
           </div>
           <div className="rounded-lg bg-brand/65 p-2">
             <p className="text-lg font-medium">Customer-Centric Approach</p>
-            <span className="text-xs">Our customers are at the heart of everything we do.</span>
+            <span className="text-xs">
+              Our customers are at the heart of everything we do.
+            </span>
           </div>
           <div className="rounded-lg bg-brand/65 p-2">
             <p className="text-lg font-medium">Reliability and Supporty</p>
             <span className="text-xs">
-              e are committed to providing reliable products and exceptional support..
+              e are committed to providing reliable products and exceptional
+              support..
             </span>
           </div>
         </div>

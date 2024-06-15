@@ -17,17 +17,19 @@ const AboutUsPage = () => {
       <div className="absolute top-0 mx-auto flex h-full w-full flex-col items-center justify-center gap-4 px-4">
         <h1 className="text-6xl font-extrabold">About Us</h1>
         <p className="max-w-4xl text-wrap text-center text-sm lg:text-base">
-          Welcome to Patil Computers, your one-stop destination for comprehensive IT solutions. We
-          are dedicated to providing top-quality products and services to meet all your computing
-          and network needs. Our extensive range of offerings ensures that we can cater to both
+          Welcome to Patil Computers, your one-stop destination for
+          comprehensive IT solutions. We are dedicated to providing top-quality
+          products and services to meet all your computing and network needs.
+          Our extensive range of offerings ensures that we can cater to both
           individual users and businesses, regardless of size or industry.
         </p>
         <p className="max-w-4xl text-wrap text-center text-sm lg:text-base">
-          we are committed to delivering exceptional customer service and support. Our team of
-          experienced professionals is dedicated to helping you find the perfect solutions for your
-          specific needs. We believe in building long-term relationships with our clients, based on
-          trust, reliability, and excellence. Thank you for choosing Patil Computers. We look
-          forward to serving you and helping you achieve your IT goals.
+          we are committed to delivering exceptional customer service and
+          support. Our team of experienced professionals is dedicated to helping
+          you find the perfect solutions for your specific needs. We believe in
+          building long-term relationships with our clients, based on trust,
+          reliability, and excellence. Thank you for choosing Patil Computers.
+          We look forward to serving you and helping you achieve your IT goals.
         </p>
       </div>
     </section>

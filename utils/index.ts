@@ -9,7 +9,7 @@ import {
   HardDrive,
   HomeIcon,
   Laptop2,
-  Monitor,
+  PenTool,
   Printer,
   Server,
   Shield,
@@ -18,6 +18,24 @@ import {
 import { TLinks, TService } from "./types"
 
 export const services: TService[] = [
+  {
+    title: "Laptop Computers",
+    description:
+      "Offering a diverse selection of laptops from top brands, perfect for mobility and performance in any setting.",
+    Icon: Laptop2,
+  },
+  {
+    title: "Desktop Computers",
+    description:
+      "Supplying desktop computers from all leading brands, tailored to meet your personal or business requirements.",
+    Icon: Computer,
+  },
+  {
+    title: "Workstations",
+    description:
+      "Providing powerful workstations designed for high-end computing tasks, ideal for professionals in various fields.",
+    Icon: Cpu,
+  },
   {
     title: "Printer Solutions",
     description:
@@ -29,18 +47,6 @@ export const services: TService[] = [
     description:
       "Providing reliable and powerful server solutions to ensure your business operations run smoothly and efficiently.",
     Icon: Server,
-  },
-  {
-    title: "Desktop Computers",
-    description:
-      "Supplying desktop computers from all leading brands, tailored to meet your personal or business requirements.",
-    Icon: Computer,
-  },
-  {
-    title: "Laptop Computers",
-    description:
-      "Offering a diverse selection of laptops from top brands, perfect for mobility and performance in any setting.",
-    Icon: Laptop2,
   },
   {
     title: "Firewall Solutions",
@@ -55,6 +61,12 @@ export const services: TService[] = [
     Icon: SwitchCamera,
   },
   {
+    title: "Surveillance Cameras",
+    description:
+      "Offering a variety of surveillance cameras to ensure the security and monitoring of your premises.",
+    Icon: Camera,
+  },
+  {
     title: "Uninterruptible Power Supply (UPS)",
     description:
       "Ensuring continuous power supply and protection for your devices with our reliable UPS solutions.",
@@ -67,22 +79,10 @@ export const services: TService[] = [
     Icon: HardDrive,
   },
   {
-    title: "Monitors",
+    title: "Annual Maintenance Contract (AMC)",
     description:
-      "Offering a wide range of monitors with excellent display quality for all your personal and professional needs.",
-    Icon: Monitor,
-  },
-  {
-    title: "Workstations",
-    description:
-      "Providing powerful workstations designed for high-end computing tasks, ideal for professionals in various fields.",
-    Icon: Cpu,
-  },
-  {
-    title: "Surveillance Cameras",
-    description:
-      "Offering a variety of surveillance cameras to ensure the security and monitoring of your premises.",
-    Icon: Camera,
+      "Providing comprehensive annual maintenance contracts to keep your IT infrastructure running smoothly and efficiently.",
+    Icon: PenTool,
   },
 ]
 

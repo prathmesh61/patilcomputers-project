@@ -19,11 +19,13 @@ const WhyChooseUs = () => {
         <h2 className="text-2xl font-bold">FOR GENUINE SERVICE</h2>
         <div className="flex max-w-xl flex-col gap-y-3">
           <span className="flex items-center gap-2 bg-white px-2 py-1 text-black">
-            <WorkflowIcon size={20} /> Our success comes from you, through us helping.
+            <WorkflowIcon size={20} /> Our success comes from you, through us
+            helping.
           </span>
           <span className="flex items-center gap-2 bg-white px-2 py-1 text-black">
             <BookMarkedIcon size={20} />
-            Our main focus is on providing Quality Assured Products to our clients.
+            Our main focus is on providing Quality Assured Products to our
+            clients.
           </span>
           <span className="flex items-center gap-2 bg-white px-2 py-1 text-black">
             <BarChart size={20} />

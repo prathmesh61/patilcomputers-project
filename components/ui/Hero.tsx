@@ -26,7 +26,9 @@ const Hero = () => {
           <h2 className="text-wrap text-4xl font-extrabold">
             Security, Surveillance & Managed IT Services Provider
           </h2>
-          <p className="text-lg font-medium">A guide to introduce Patil computers</p>
+          <p className="text-lg font-medium">
+            A guide to introduce Patil computers
+          </p>
         </div>
       </div>
       <div className="relative w-full">
@@ -45,7 +47,9 @@ const Hero = () => {
           <h2 className="text-wrap text-4xl font-extrabold">
             We offer a full spectrum of IT, Networking and Security services.
           </h2>
-          <p className="text-lg font-medium">A guide to introduce Expert Tech Group</p>
+          <p className="text-lg font-medium">
+            A guide to introduce Expert Tech Group
+          </p>
         </div>
       </div>
       <div className="relative w-full">
@@ -64,7 +68,9 @@ const Hero = () => {
           <h2 className="text-wrap text-4xl font-extrabold">
             IT Service provider across all public and private sectors.
           </h2>
-          <p className="text-lg font-medium">A guide to introduce Expert Tech Group</p>
+          <p className="text-lg font-medium">
+            A guide to introduce Expert Tech Group
+          </p>
         </div>
       </div>
     </Carousel>

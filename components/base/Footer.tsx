@@ -10,10 +10,12 @@ const Footer = () => {
       className="mt-20 flex flex-wrap items-center gap-10 bg-brand-dark/65 px-4 py-10 lg:justify-evenly lg:gap-4"
     >
       <div className="flex flex-col gap-4">
-        <h2 className="w-fit bg-white p-2 text-xl font-extrabold text-black">Patil Computers</h2>
+        <h2 className="w-fit bg-white p-2 text-xl font-extrabold text-black">
+          Patil Computers
+        </h2>
         <p className="max-w-sm text-sm font-medium">
-          Our main focus is on providing Quality Assured Products to our clients at reasonable
-          market prices.
+          Our main focus is on providing Quality Assured Products to our clients
+          at reasonable market prices.
         </p>
       </div>
       <div className="flex flex-col">
@@ -35,7 +37,8 @@ const Footer = () => {
         <div className="flex flex-col gap-3">
           <p className="flex max-w-sm items-center gap-2 text-sm font-medium">
             <LocateIcon size={20} />
-            Shop no 5, Plot No 08, PushpSarita, Sector-17, Kamothe, Navi Mumbai-410209.
+            Shop no 5, Plot No 08, PushpSarita, Sector-17, Kamothe, Navi
+            Mumbai-410209.
           </p>
           <p className="flex items-center gap-2 text-sm font-medium">
             <PhoneCall size={20} /> 9768180229 / 9011758573
