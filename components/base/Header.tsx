@@ -38,7 +38,7 @@ const Header = () => {
             <Link
               href={link.link}
               key={index}
-              className="text-base font-medium text-gray-300 hover:text-white"
+              className="cursor-pointer text-base font-medium text-gray-300 hover:text-white"
             >
               {link.name}
             </Link>

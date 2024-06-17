@@ -14,7 +14,7 @@ const MobileNavbar = () => {
         <AlignRight size={26} className="cursor-pointer" />
       </span>
       {open && (
-        <nav className="absolute right-0 top-0 z-10 flex h-screen w-[200px] bg-white lg:hidden">
+        <nav className="absolute right-0 top-0 z-20 flex h-screen w-[200px] bg-white lg:hidden">
           <span
             className="absolute right-2 top-2"
             onClick={() => setOpen((prev) => !prev)}
@@ -24,7 +24,7 @@ const MobileNavbar = () => {
               className="cursor-pointer border-2 border-gray-500 p-1 text-gray-500"
             />
           </span>
-          <div className="z-20 ml-5 mt-20 flex flex-col gap-8 p-4">
+          <div className="ml-5 mt-20 flex flex-col gap-8 p-4">
             {links.map((item, index) => (
               <Link
                 href={item.link}
